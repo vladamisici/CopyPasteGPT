@@ -1,6 +1,6 @@
 # GPT Copy Paste
 
-Trimite automat intrebarile copiate la GPT-4 si copiaza raspunsurile in clipboard.
+Trimite automat întrebarile copiate la GPT-4 și copiază răspunsurile în clipboard.
 
 ## Instalare
 
@@ -35,3 +35,17 @@ Trimite automat intrebarile copiate la GPT-4 si copiaza raspunsurile in clipboar
 ## Utilizare
 
 Apasă Command-C pentru a copia o întrebare și Command-V pentru a lipi răspunsul generat de GPT-4.
+
+### Mod Notificări
+
+Implicit, scriptul va afișa notificări în colțul din dreapta sus al ecranului pentru a te informa despre diverse stări, cum ar fi:
+- Când răspunsul este gata și a fost copiat în clipboard ("Ready").
+- Dacă există probleme cu cheia API ("Incorrect API key").
+- Alte erori care ar putea apărea.
+
+### Mod Stealth
+
+Pentru a rula scriptul în modul stealth (fără notificări), folosește următoarea comandă:
+
+```sh
+python main.py --stealth
