@@ -7,7 +7,7 @@ Trimite automat intrebarile copiate la GPT-4 si copiaza raspunsurile in clipboar
 1. Clonează acest repository:
 
     ```sh
-    git clone https://github.com/username/gpt_copy_paste.git
+    git clone https://github.com/vladamisici/CopyPasteGPT
     cd gpt_copy_paste
     ```
 
